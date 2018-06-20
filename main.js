@@ -36,16 +36,5 @@ function printResults(input){
 //Extra challenges:
 //Allow users to change currency!
 //Allow users to add, remove month lengths for longer or shorter saving periods.
-//
 
-//fully commented.
-
-//dom connection
-//functions
-//addEventListener()
-//data validation - isNaN()
-//if statements
-//concatenations
-//arrays
-//for loops
 
