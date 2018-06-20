@@ -1,8 +1,24 @@
 # savings-target-application
-A simple app for Javascript students that allows a user to enter a savings target, hit a button and then view various lengths of time showing the user how long it would take to hit their savings target, and how much they would need to save every month.
+This is a simple app for Javascript students to practice see some key skills in action. The app allows a user to enter a savings target, hit a button and then see how much they would need to save every month to hit their target in various time frames.
 
-- I have included a basic html and css style sheet with the project.
+- I have included a basic html sheet with the project.
 
-- This a simple exercise designed to help students new to Javascript.  It can also be helpful to students in understanding how they should perform calculations and format numbers for financial applications.
+SKILLS USED:
+- functions
+- addEventListener()
+- data validation - isNaN()
+- if statements
+- string concatenation
+- arrays
+- for loops
 
-- I will add a list here of the Javascript skills used in the application, when it is complete and tested!
+EXTRA CHALLENGES:
+If you are fairly new to Javascript, take it further by:
+- Allow users to change currency!
+- Allow users to add, remove month lengths for longer or shorter saving periods.
+
+If you are an intermediate level Javascript student, just for practice rather than performance, see if you could re-write some of the app with:
+- Recursion
+- A for...of loop
+- Closures
+
