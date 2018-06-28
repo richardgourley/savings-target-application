@@ -1,5 +1,5 @@
 # savings-target-application
-This is a simple app for Javascript students to practice see some key skills in action. The app allows a user to enter a savings target, hit a button and then see how much they would need to save every month to hit their target in various time frames.
+This is a simple app for Javascript students to see some key skills in action. The app allows a user to enter a savings target, hit a button and then see how much they would need to save every month to hit their target in various time frames.
 
 - I have included a basic html sheet with the project.
 
