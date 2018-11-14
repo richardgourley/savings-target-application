@@ -31,13 +31,7 @@ function printResults(input){
         
         //Calculate month length in weeks
         weeks = (arrMonths[i] / 6) * 26;
-        /*printStr += "<h3>To hit your target of $" + input;
-        printStr += " in " + $months + " MONTHS";
-        printStr += ", you would need to save: ";
-        printStr += "$" + (input/months).toFixed(2);
-        printStr += " every month </h3>";
-        //printStr += "<p>" + "Testing" + "</p>";
-        */
+        
         printStr += "<h4><strong>$";
         printStr +=  (input/arrMonths[i]).toFixed(2);
         printStr += " per month, for " + arrMonths[i] + " months</strong>";
