@@ -20,15 +20,30 @@ function startApp(){
 }
 
 function printResults(input){
+    
     let printStr = "";
+    printStr += "<h3>To hit your target of $" + input;
+    printStr += ", you would need to save: </h3>";
     //array storing month values
     let arrMonths = [6,12,24,36,48,60];
     //loop throught the array and concatenate the string for each value in array.
     for(i=0; i<arrMonths.length; i++){
-        printStr += "<h3>MONTHS: " + arrMonths[i];
-        printStr += ". You would need to save: ";
-        printStr += "$" + (input/arrMonths[i]).toFixed(2);
+        
+        //Calculate month length in weeks
+        weeks = (arrMonths[i] / 6) * 26;
+        /*printStr += "<h3>To hit your target of $" + input;
+        printStr += " in " + $months + " MONTHS";
+        printStr += ", you would need to save: ";
+        printStr += "$" + (input/months).toFixed(2);
         printStr += " every month </h3>";
+        //printStr += "<p>" + "Testing" + "</p>";
+        */
+        printStr += "<h4><strong>$";
+        printStr +=  (input/arrMonths[i]).toFixed(2);
+        printStr += " per month, for " + arrMonths[i] + " months</strong>";
+        printStr += ". Or $";
+        printStr += (input/weeks).toFixed(2);
+        printStr += " per week, for " + weeks + " weeks</h4>";
     } 
     displayRes.innerHTML = printStr;
 }
